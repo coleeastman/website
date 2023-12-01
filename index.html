@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"><a href="index.html" class="logo-link">Cole Eastman</a></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo"><a href="index.html" class="logo-link">Cole Eastman</a></div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="experience.html" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="project.html" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/profile-pic.png" alt="Cole Eastman profile picture"/>
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Cole Eastman</h1>
+            <p class="section_text_p2">CS Student</p>
+            <!-- <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">Download CV</button>
+                <a href="contact.html" style="text-decoration: none; color: inherit;">
+                    <button class="btn btn-color-1">Contact Info</button>
+                </a>                
+            </div> -->
+            <div id="socials-container">
+                <a href="https://www.linkedin.com/in/cole-eastman-3528a6267/" target="_blank">
+                    <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"/>
+                </a>
+                <a href="https://github.com/coleeastman" target="_blank">
+                    <img src="./assets/github.png" alt="My Github profile" class="icon"/>
+                </a>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
