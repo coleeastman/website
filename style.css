@@ -176,7 +176,6 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
-
 }
 
 .section_text {
@@ -266,9 +265,8 @@ section {
 
 /* ABOUT SECTION */
 
-.about-pic {
-    border-radius: 20px;
-    height: 400px;
+.about-img {
+    height: 300px;
 } 
 
 #about {
@@ -317,7 +315,7 @@ section {
 .about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .about-details-container {
@@ -329,6 +327,11 @@ section {
 .about-details-container {
     display: flex;
     justify-content: center;
+}
+
+.section_about_text {
+    align-self: center;
+    max-width: 400px;
 }
 
 /* EXPERIENCE */
@@ -382,11 +385,11 @@ article {
 }
 
 .article-container .project-img {
-    transition: transform 0.3s ease; /* Ensures a smooth scaling effect */
+    transition: transform 0.3s ease;
   }
   
 .article-container:hover .project-img {
-    transform: scale(1.05); /* Scales up the image to 110% of its original size */
+    transform: scale(1.05);
 }
 
 .projects-title {
