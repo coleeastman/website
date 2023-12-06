@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px) {
     #profile {
-        height: 3vh;
+        height: auto;
         margin-bottom: 6rem;
     }
     .about-containers {
@@ -8,7 +8,9 @@
     }
 }
 
+
 @media screen and (max-width: 1200px) {
+
     #desktop-nav {
         display: none;
     }
@@ -38,7 +40,6 @@
     .about-containers {
         margin-top: 0;
     }
-
 
 }
 
