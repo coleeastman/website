@@ -162,6 +162,10 @@ section {
     display: flex;
 }
 
+.section_pic-container img {
+    border-radius: 20px;
+}
+
 /* PROFILE SECTION */
 
 #profile {
@@ -207,6 +211,7 @@ section {
     margin-top: 1rem;
     gap: 1rem;
 }
+
 
 /* ICONS */
 
@@ -262,6 +267,7 @@ section {
 .btn-container {
     gap: 1rem;
 }
+
 
 /* ABOUT SECTION */
 
@@ -327,6 +333,11 @@ section {
 .about-details-container {
     display: flex;
     justify-content: center;
+}
+
+.about-containers img {
+    border-radius: 15px;
+
 }
 
 .section_about_text {
